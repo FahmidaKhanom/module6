@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Property</title>
+    <style>
+        :root {
+            --main-color: slateblue;
+            --main-border: rgba(230, 145, 19, 0.664);
+            --main-background-color: rgb(156, 143, 143);
+
+        }
+
+        h1 {
+            color: var(--main-color);
+        }
+
+        p {
+            color: var(--main-color);
+        }
+
+        h2 {
+            border: 2px solid var(--main-border);
+            color: var(--main-color);
+        }
+
+        h6 {
+
+            background-color: var(--main-background-color);
+        }
+
+        footer {
+            color: var(--main-color);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>I am exploeing Custom Property</h1>
+        <p>welcome to my webside</p>
+    </header>
+
+    <body>
+        <h2>Here is my contain</h2>
+        <h6>My tiny heading</h6>
+
+    </body>
+    <footer>
+
+        <p><small>CopyRight</small></p>
+    </footer>
+</body>
+
+</html>
